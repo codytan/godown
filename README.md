@@ -8,5 +8,7 @@ mv godown_linux godown
 chmod +x godown
 
 ./godown -port 8089 -path /data/downdir
+或后台运行
+./godown -port 8089 -path /data/downdir > run.log 2>&1 &
 ```
 
