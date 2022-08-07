@@ -1,5 +1,5 @@
 # godown
-简易临时把服务器当做临时文件下载服务
+简易临时把服务器当做临时文件下载服务  
 
 ## install
 ```
@@ -11,4 +11,6 @@ chmod +x godown
 或后台运行
 ./godown -port 8089 -path /data/downdir > run.log 2>&1 &
 ```
+***注意务必确认用户下载的目录中无敏感信息（.ssh .git等等）***
+
 
